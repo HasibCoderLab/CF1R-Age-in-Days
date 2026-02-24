@@ -17,10 +17,11 @@ int main()
     int N;
     cin >> N;
     int years, remaining_days, months, days;
-    years = N % 365;
+    years = N / 365;
     remaining_days = N % 365;
     months = remaining_days / 30;
     days = remaining_days % 30 ;
+    cout <<years <<" years" << endl  <<months << " months" << endl<<days << " days";
 
            return 0;
 }
