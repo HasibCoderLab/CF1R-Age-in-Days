@@ -10,9 +10,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-ios::sync_with_stdio(false);
-cin.tie(nullptr);
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int N;
+    cin >> N;
+    int years, remaining_days, months, days;
+    years = N % 365;
+    remaining_days = N % 365;
+    months = remaining_days / 30;
+    days = remaining_days % 30 ;
 
-    return 0;
+           return 0;
 }
